@@ -9,7 +9,8 @@ Pod::Spec.new do |s|
   s.author          = { 'Christopher Worley' => 'n6xej@yahoo.com'}
   s.source          = { :git => 'https://github.com/n6xej/CSWXIBWalkThrough.git', :tag => '0.1.0' }
 
-  s.source_files    = 'CSWXIBWalkThrough/Walk*'
+  s.source_files = 'CSWXIBWalkThrough/**/*.{h,m}'
+  s.public_header_files    = 'CSWXIBWalkThrough/Walk**.h', 'CSWXIBWalkThrough/CSWXIBWalkThrough.h'
 
   s.requires_arc    = true
 
